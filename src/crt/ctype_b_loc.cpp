@@ -31,5 +31,5 @@ static const unsigned short *const ptable = table+128;
 
 const unsigned short **__ctype_b_loc(void)
 {
-	return (void *)&ptable;
+	return (const unsigned short **)&ptable;
 }

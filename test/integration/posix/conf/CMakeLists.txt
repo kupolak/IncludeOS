@@ -6,9 +6,9 @@ include(os)
 
 set(SOURCES
   service.cpp
-  test_sysconf.c
-  test_pathconf.c
-  test_pwd.c
+  test_sysconf.cpp
+  test_pathconf.cpp
+  test_pwd.cpp
 )
 
 #os_add_config(service "${CMAKE_CURRENT_SOURCE_DIR}/config.json")

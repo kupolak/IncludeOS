@@ -26,5 +26,5 @@ static const int32_t *const ptable = table+128;
 
 const int32_t **__ctype_tolower_loc(void)
 {
-	return (void *)&ptable;
+	return (const int32_t **)&ptable;
 }
